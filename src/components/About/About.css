@@ -1,0 +1,21 @@
+.about-1{
+    margin: 4rem 6rem;
+    text-align: start;
+
+}
+.about-1 h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.about-1 p{
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:850px) {
+    .about-1{
+        margin: 4rem 2rem;
+        
+    
+    }
+    
+}
