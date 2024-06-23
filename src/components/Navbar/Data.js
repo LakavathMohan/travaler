@@ -28,7 +28,7 @@ export const Data = [
 
     },
     {
-        title:"LogOut",
+        title:"Sign Up",
         url:"/sign up",
         cName :"nav-links-mobile",
 

@@ -32,7 +32,7 @@ const Navbar = () => {
 
               })}
                
-               <button>Sing Up</button>
+               <button>LogOut</button>
                 
             </ul>
            
