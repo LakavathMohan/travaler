@@ -1,7 +1,7 @@
 export const Data = [
     {
         title:"Home",
-        url:"/",
+        url:"/home",
         cName :"nav-links",
         icon:"fa-solid fa-house-user",
 
@@ -28,8 +28,8 @@ export const Data = [
 
     },
     {
-        title:"Sign Up",
-        url:"/sign up",
+        title:"LogOut",
+        url:"/logout",
         cName :"nav-links-mobile",
 
     },

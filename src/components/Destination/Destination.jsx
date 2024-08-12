@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Destination.css"
-import destination1 from "../../assets/1.jpg"
-import destination2 from "../../assets/2.jpg"
-import destination3 from "../../assets/3.jpg"
-import destination4 from "../../assets/4.jpg"
+import destination1 from "../../assets/Taj-Mahal.jpg"
+import destination2 from "../../assets/Delhi.jpg"
+import destination3 from "../../assets/manali.jpg"
+import destination4 from "../../assets/kerala.jpg"
 import DestinationData from './DestinationData'
 import Trip from '../Trip/Trip'
 
@@ -15,18 +15,24 @@ const Destination = () => {
        
         <DestinationData
         className="first-desc"
-        heading="Taal Valcano.Bantangas"
-        description=" Taal Volcano is a complex volcano located on the island of Luzon in the Philippines. It is the second most active volcano in the Philippines with 33 historical eruptions. All of these eruptions are concentrated on Volcano Island, an island near the middle of Taal Lake. The lake partially fills Taal Caldera, which was formed by prehistoric eruptions between 140,000 and 5,380 BP.Viewed from Tagaytay Ridge, Taal Volcano and Lake presents one of the most picturesque and attractive views in the Philippines. It is located about 50 km (31 mi) south of the capital of the country, the city of Manila.The volcano had several violent eruptions in the past causing loss of life in the island and the populated areas surrounding the lake, with the death toll estimated at around 5,000 to 6,000. "
+        heading="Tour the Taj Mahal in Agra"
+        description="1. The Taj Mahal is a mausoleum complex in Agra, western Uttar Pradesh state, northern India. It is considered the finest example of Mughal architecture (a blend of Indian, Persian, and Islamic styles). The Taj Mahal is also one of the world’s most iconic monuments, visited by millions of tourists each year, "
+        description01="2.The capital city makes for one of the perfect travel destinations in India. A city of heritage, monuments, teeming with bazaars and mouth-watering street food, high-end malls, and luxury hotels & restaurants; Delhi has something for everyone. So whether you are looking for a heritage walk or a shopping experience or for kids-friendly activities or places for photography or even seek the blessings of god, Delhi will not disappoint."
 
         img1={destination1}
         img2={destination2}
+      
+       
         
         />
+
+        
         <br />
          <DestinationData
          className="first-desc-reverse"
-        heading="Mt.Daguldal Bantangas"
-        description="Marlboro Hills is one of the highest spots in Sagada and is well known for its incredible 360-degree view of the mountain ranges in Mountain Province. It offers tourists a grand viewpoint of the sunrise as well as the sea of clouds during perfect weather. It is approximate two hours drive from Banaue. According to the locals, Marlboro Hills got its name from the old Marlboro cigarette brand displaying cowboys riding their horses on the grassy plains of Sagada. Today, it is a pasture land for cattles and carabao. So if you want to experience trekking and watching the sunrise in the Mountain Province then Marlboro Hills is the ideal place for you to chill and feel the cold weather."
+        heading=" a Houseboat in Kerala"
+        description="1.In a country as sweltering as India, it's a relief to find cool weather in hill stations all over the country. Manali happens to be one of the most popular among local and foreign tourists alike. Located in Himachal Pradesh, the high-altitude resort town in the Himalayas makes an easy getaway from Jaipur, New Delhi,"
+        description01="2.If you're into unique accommodations, you've got a special treat ahead of you in Kerala. From the city of Alleppey, you can hop on a traditional thatched houseboat, explore Kerala's gentle backwaters, and even spend the night aboard the vessel."
 
         img1={destination3}
         img2={destination4}

@@ -8,16 +8,20 @@
 }
 .tripcard{
    margin-top: 3rem ;
-   margin-left: -30px;
+   margin-left: -90px;
    display: flex;
    justify-content: space-between;
    /* border: 2px solid red; */
-   width: 110%;
-   
+   width: 100%;  
    
 }
+.tripcard Link{
+    height: 100px;
+    width: 500px;
+}
 .t-text{
-    width: 32%;
+    width: 100%;
+    gap: 20px;
     
     text-align: start;
     box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.11);
@@ -28,8 +32,10 @@
 }
 .t-image{
     height: 220px;
+    width: 400px;
     border-radius: 7px;
     overflow: hidden;
+  
     
 
 }
@@ -45,7 +51,13 @@
 .tripcard h2{
     font-size: 1.3rem;
     padding: .9rem 0 .2rem 0;
+    text-decoration: none;
 }
+.tripcard a{
+    text-decoration: none;
+    color: black;
+}
+
 @media screen and (max-width:850px) {
     .trip{
         margin: 4rem 6rem;

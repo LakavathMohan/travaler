@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
        
-            <h1 className='navbar-logo'>Toure Travel</h1>
+            <h1 className='navbar-logo'>Travel Article</h1>
             <div className='menu-logo' onClick={handleClick}>
              {click? (<i className='fas fa-bars'></i>):
              (<i className='fas fa-times'></i>)}
@@ -32,7 +32,9 @@ const Navbar = () => {
 
               })}
                
-               <button>LogOut</button>
+              <form action="post">
+             <Link to='/'> <button className='logout'>LogOut</button></Link>
+              </form>
                 
             </ul>
            

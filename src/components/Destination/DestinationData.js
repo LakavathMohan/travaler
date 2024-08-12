@@ -1,9 +1,6 @@
 import React from 'react'
 import "./Destination.css"
-// import destination1 from "../../assets/1.jpg"
-// import destination2 from "../../assets/2.jpg"
-// import destination3 from "../../assets/3.jpg"
-// import destination4 from "../../assets/4.jpg"
+import { Link } from 'react-router-dom'
 
 const DestinationData = (props) => {
   return (
@@ -11,6 +8,7 @@ const DestinationData = (props) => {
     <div className='desc-text'>
         <h2>{props.heading}</h2>
         <p>{props.description}</p>
+        <p>{props.description01}</p>
     </div>
     <div className='image'>
         <img src={props.img1} alt="img1" />
